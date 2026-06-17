@@ -95,6 +95,7 @@ there is no need to run `rbenv rehash` when installing gems via bundler or `gem 
 Rbenv will automatically trigger the rehash using either of those methods. To ensure you have this
 version installed, follow the [basic git checkout installation instructions](https://github.com/rbenv/rbenv?tab=readme-ov-file#basic-git-checkout).
 
+
 Install bundler:
 
 ```console
