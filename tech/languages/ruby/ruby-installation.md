@@ -68,11 +68,11 @@ $ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
-Install a Ruby version, such as 3.1.2. See `rbenv install --list` for available versions.
+Install a Ruby version, such as 3.4.9. See `rbenv install --list` for available versions.
 
 ```console
-$ rbenv install 3.1.2
-$ rbenv global 3.1.2
+$ rbenv install 3.4.9
+$ rbenv global 3.4.9
 $ ruby -v
 ```
 Use this command if you do not want rubygems to install the documentation for each package locally.
