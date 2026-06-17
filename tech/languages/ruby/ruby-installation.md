@@ -45,7 +45,7 @@ RUBYPICK=_mri_
 
 [Read more about RubyPick](https://github.com/fedora-ruby/rubypick).
 
-# Installing Ruby with rbenv
+## Installing Ruby with rbenv
 
 The first step is to install dependencies for Ruby and rbenv.
 
@@ -81,7 +81,7 @@ Use this command if you do not want rubygems to install the documentation for ea
 $ echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 ```
 
-## Rbenv rehash
+### Rbenv rehash
 
 `rbenv rehash` is not needed when installing gems via `gem install` as rbenv will automatically
 trigger the rehash. You may need to trigger a rehash manually after installing gems using bundler.
